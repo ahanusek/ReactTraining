@@ -9,10 +9,10 @@ var ScoreboardList = React.createClass({
 			if(players.length > 0){
 				return players.map(player => {
 					var {name, points, id} = player;
-					return <ListItem key={id} name={name} points={points}/>;
+					return <ListItem key={id} id={id} name={name} points={points} onRemove={this.props.onRemove} onChangePoints={this.props.onChangePoints}/>;
 				})
 			} else {
-				return <h3>Brak zawodników</h3>
+				return <div className="empty-list">Dodaj nowego zawodnika</div>
 			}
 		};
 
