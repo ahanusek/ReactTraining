@@ -4,7 +4,7 @@ var React = require('react');
 var ScoreboardTimer = React.createClass({
 	render: function () {
 		return (
-			<div>
+			<div className="timer-container">
 				ScoreboardTimer
 			</div>
 		)

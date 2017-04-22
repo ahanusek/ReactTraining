@@ -28,7 +28,8 @@ module.exports = {
 			ScoreboardList: 'app/components/ScoreboardList.jsx',
 			ScoreboardAddForm: 'app/components/ScoreboardAddForm.jsx',
 			ScoreboardTimer: 'app/components/ScoreboardTimer.jsx',
-			ScoreboardSummary: 'app/components/ScoreboardSummary.jsx'
+			ScoreboardSummary: 'app/components/ScoreboardSummary.jsx',
+			ListItem: 'app/components/ListItem.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
