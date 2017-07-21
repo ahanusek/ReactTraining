@@ -1,8 +1,7 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-var ScoreboardApp = require('ScoreboardApp')
+import ScoreboardApp from './components/ScoreboardApp'
 
 //Load foundation
 $(document).foundation();
